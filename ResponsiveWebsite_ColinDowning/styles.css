@@ -1,0 +1,89 @@
+:root{
+    --black:#020202;
+    --blue:#0D324D;
+    --lav:#7F5A83;
+    --mauve:#A188A6;
+    --steel:#9DA2AB;
+    --steel-hover: #6f7275;
+}
+
+body{
+    margin:0;
+    background-color: var(--steel-hover);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* NAV BAR CSS */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--steel);
+}
+
+ul .title{
+    text-align: center;
+    padding-right: 3rem;
+}
+
+ul li{
+    /*tells it to start on the left*/
+    float: left;
+}
+
+ul li a{
+    display:block;
+    color: var(--black);
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: var(--steel-hover);
+}
+
+/* MAIN SECTION CSS*/
+
+
+h1{
+    font-size:3rem;
+    text-align: center;
+    color:var(--black);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.main_container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: var(--mauve);
+    margin: 0 4rem;
+    border: 3px var(--black) solid;
+    border-radius: 1rem;
+}
+
+.box{
+    flex: 33%;
+    padding: 10rem;
+    margin:1rem;
+    border:2px var(--lav) solid;
+}
+
+@media screen and (max-width: 980px) {
+  .box {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main_container {
+    flex-direction: column;
+  }
+}
