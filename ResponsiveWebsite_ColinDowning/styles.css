@@ -124,10 +124,15 @@ h1{
   .box {
     flex: 50%;
   }
+
+  .main_container{
+    margin: 0 5rem;
+  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .main_container {
     flex-direction: column;
+    margin: 0 1rem;
   }
 }
