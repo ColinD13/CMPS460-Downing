@@ -71,9 +71,52 @@ h1{
 
 .box{
     flex: 33%;
-    padding: 10rem;
+    padding: 1rem;
     margin:1rem;
-    border:2px var(--lav) solid;
+}
+
+/*makes all items in the .non_image display flex (one level down) the box did not do that*/
+.non_image {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border: 2px var(--blue) solid;
+    border-radius: 5rem;
+    background-color: var(--lav);
+}
+
+
+.non_image p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: var(--black);
+    text-align: center;
+    height: auto;
+}
+
+.non_image p a{
+    text-decoration: none;
+}
+
+.box img{
+    width:60%;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+    border: 3px var(--blue) solid;
+    margin: 0 auto;
+}
+
+.box p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: var(--black);
+    text-align: center;
+    height: auto;
 }
 
 @media screen and (max-width: 980px) {
