@@ -25,6 +25,11 @@ ul{
     background-color: var(--steel);
 }
 
+.footer{
+    margin-top:1rem;
+    padding:1rem 0 1rem 1rem;
+}
+
 ul .title{
     text-align: center;
     padding-right: 3rem;
