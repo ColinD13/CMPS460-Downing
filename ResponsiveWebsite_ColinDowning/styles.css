@@ -92,6 +92,16 @@ h1{
     background-color: var(--lav);
     /*what allows the non_images to center themselves so they don't stretch as tall as the images*/
     align-self: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.75);
 }
 
 
