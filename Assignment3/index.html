@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>PWA Assign 3</title>
+
+  <base href="/" />
+
+  <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <meta name="description" content="This is a PWA Starter app" />
+
+  <!-- <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#181818" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f3f3" /> -->
+
+  <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="PWA Starter" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <!-- This tag is used by the PWA Starter CLI to identify template projects. Don't remove if you are using the CLI. -->
+  <meta name="pwa-starter-template-identity" content="pwa-starter"/>
+
+  <!-- Imports an icon to represent the document. -->
+  <link rel="icon" href="/assets/icons/icon_24.png" type="image/png" />
+
+  <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+  <link rel="manifest" href="manifest.json" />
+
+  <link rel="stylesheet" href="src/styles/mine.css" />
+  <!-- light mode and dark mode CSS -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme:light)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/dist/themes/light.css">
+  <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/dist/themes/dark.css"
+    onload="document.documentElement.classList.add('sl-theme-dark');"> -->
+
+  <script type="module">
+    import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
+    setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/');
+  </script>
+
+  <script type="module" src="/src/app-index.ts"></script>
+</head>
+
+<body>
+  <main>
+    <h1>NHL Divisions</h1>
+    <div class="box-container">
+      <div class="outer-box">
+        <h2>Atlantic</h2>
+        <div class="box">
+          <ul>
+            <li>Lightning</li>
+            <li>Canadiens</li>
+            <li>Sabres</li>
+            <li>Red Winds</li>
+            <li>Bruins</li>
+            <li>Maple Leafs</li>
+            <li>Panthers</li>
+            <li>Senators</li>
+          </ul>
+        </div>
+      </div>
+      <div class="outer-box">
+        <h2>Metropolitan</h2>
+        <div class="box">
+          <ul>
+            <li>Hurricanes</li>
+            <li>Penguins</li>
+            <li>Islanders</li>
+            <li>Blue Jackets</li>
+            <li>Capitals</li>
+            <li>Flyers</li>
+            <li>Devils</li>
+            <li>Rangers</li>
+          </ul>
+        </div>
+      </div>
+      <div class="outer-box">
+        <h2>Central</h2>
+        <div class="box">
+          <ul>
+            <li>Avalanche</li>
+            <li>Wild</li>
+            <li>Stars</li>
+            <li>Mammoth</li>
+            <li>Predators</li>
+            <li>Blackhawks</li>
+            <li>Jets</li>
+            <li>Blues</li>
+          </ul>
+        </div>
+      </div>
+      <div class="outer-box">
+        <h2>Pacific</h2>
+        <div class="box">
+          <ul>
+            <li>Golden Knights</li>
+            <li>Oilers</li>
+            <li>Kraken</li>
+            <li>Ducks</li>
+            <li>Kings</li>
+            <li>Sharks</li>
+            <li>Flames</li>
+            <li>Canucks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.onload = () => {
+        navigator.serviceWorker.register(
+          '/sw.js'
+        );
+      }
+    }
+  </script>
+</body>
+
+</html>
