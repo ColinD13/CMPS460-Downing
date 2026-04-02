@@ -1,0 +1,63 @@
+# =========================
+# Node (applies to BOTH projects)
+# =========================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Build outputs
+# =========================
+**/dist/
+**/build/
+coverage/
+
+# =========================
+# React Native / Expo
+# =========================
+# iOS
+ios/build/
+ios/Pods/
+
+# Android
+android/build/
+*.keystore
+*.jks
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro / cache
+*.tmp
+*.temp
+.cache/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
