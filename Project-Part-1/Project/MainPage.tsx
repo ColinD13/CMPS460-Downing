@@ -101,7 +101,7 @@ function MainPage() {
       </TouchableOpacity>
 
       <Button
-        title="Go to Another Page"
+        title="View Interested"
         onPress={() => navigation.navigate('ViewCards')}
       />
     </View>
