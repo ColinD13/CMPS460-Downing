@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-function MainPage() {
+function RandomCommanders() {
   const navigation = useNavigation<any>();
 
   const [card, setCard] = useState<Card | null>(null);
@@ -19,9 +19,9 @@ function MainPage() {
 
   //functions
 
-  const getRandomCard = async () => {
+  const getRandomCommander = async () => {
     try {
-      const response = await fetch('https://api.scryfall.com/cards/random', {
+      const response = await fetch('https://api.scryfall.com/cards/random?q=is%3Acommander', {
         headers: {
           'User-Agent': 'MyReactNativeApp (hockeydowning13@gmail.com)',
           Accept: 'application/json',
@@ -35,18 +35,18 @@ function MainPage() {
     }
   };
 
-  const handleAddCard = async () => {
+  const handleAddCommander = async () => {
     try {
       console.log('Handle Add Card');
-      const response = await fetch('http://10.0.2.2:3000/api/cards', {
+      const response = await fetch('http://10.0.2.2:3000/api/commanders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           id: card?.id,
-          card_name: card?.name,
-          card_image_url: card?.image_uris?.normal,
+          commander_name: card?.name,
+          commander_image_url: card?.image_uris?.normal,
         }),
       });
 
@@ -56,19 +56,19 @@ function MainPage() {
 
       const data = await response.json();
       console.log('Added card:', data);
-      await getRandomCard();
+      await getRandomCommander();
     } catch (err) {
       console.error('Error adding card:', err);
     }
   };
 
   const notInterested = async () => {
-    await getRandomCard();
+    await getRandomCommander();
   };
 
   //runs when the page is loaded
   useEffect(() => {
-    getRandomCard();
+    getRandomCommander();
   }, []);
 
   //runs when card is not retrieved yet
@@ -92,7 +92,7 @@ function MainPage() {
         />
       )}
 
-      <TouchableOpacity style={styles.button} onPress={handleAddCard}>
+      <TouchableOpacity style={styles.button} onPress={handleAddCommander}>
         <Text style={styles.buttonText}>Interested</Text>
       </TouchableOpacity>
 
@@ -102,12 +102,7 @@ function MainPage() {
 
       <Button
         title="View Interested"
-        onPress={() => navigation.navigate('ViewCards')}
-      />
-
-      <Button
-        title="Get Random Commander"
-        onPress={() => navigation.navigate('RandomCommanders')}
+        onPress={() => navigation.navigate('ViewCommanders')}
       />
     </View>
   );
@@ -144,4 +139,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainPage;
+export default RandomCommanders;

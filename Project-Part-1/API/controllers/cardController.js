@@ -25,4 +25,29 @@ const postCard = async (req, res) => {
     }
 }
 
-module.exports = { getCards, postCard };
+const getCommanders = async (req, res) => {
+    try{
+        const result = await pool.query('select * from public.commanders');
+        res.json(result.rows);
+    }catch (err){
+        console.error(err);
+        res.status(500).json({error : "Players retrieval query fail"});
+    }
+}
+
+const postCommander = async (req, res) => {
+    try{
+        console.log('POST body:', req.body);
+        const { id, commander_name, commander_image_url} = req.body;
+
+        const result = await pool.query("insert into public.commanders (commander_name, commander_image_url, id) values ($1, $2, $3)", [commander_name,commander_image_url,id]);
+
+        res.status(201).json({response: "Added the information you requested"})
+    }
+    catch(err){
+        console.log(err);
+        res.status(500).json({error:"Server error"});
+    }
+}
+
+module.exports = { getCards, postCard, getCommanders, postCommander };
