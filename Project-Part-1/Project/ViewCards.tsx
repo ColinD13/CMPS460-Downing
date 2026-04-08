@@ -1,10 +1,21 @@
-import { StyleSheet, View, Text, Image, FlatList } from 'react-native';
+import {
+  StyleSheet,
+  View,
+  Text,
+  Image,
+  FlatList,
+  TextInput,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
 import React, { useState, useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
 
 function ViewCards() {
   const navigation = useNavigation<any>();
   const [cards, setCards] = useState<Card[]>([]);
+  const [searchText, setSearchText] = useState('');
+  const [loading, setLoading] = useState(true);
 
   type Card = {
     id: string;
@@ -20,6 +31,8 @@ function ViewCards() {
       setCards(data);
     } catch (err) {
       console.error('Error fetching cards:', err);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -28,6 +41,7 @@ function ViewCards() {
     displayInterestedCards();
   }, []);
 
+  //render the cards from the array of cards
   const renderCards = ({ item }: { item: Card }) => (
     <View style={styles.cardContainer}>
       <Text style={styles.cardName}>{item.card_name}</Text>
@@ -41,16 +55,38 @@ function ViewCards() {
     </View>
   );
 
-  //return HTML
+  //filter the cards
+  const filteredCards = cards.filter(card =>
+    card.card_name.toLowerCase().includes(searchText.toLowerCase()),
+  );
+
+  if (loading) {
+    return <Text>Loading cards...</Text>;
+  }
+
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={cards}
-        keyExtractor={item => item.id}
-        renderItem={renderCards}
-        contentContainerStyle={{ paddingBottom: 20 }}
-      />
-    </View>
+    <KeyboardAvoidingView
+      style={{ flex: 1 }}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+    >
+      <View style={styles.container}>
+        <TextInput
+          style={styles.searchInput}
+          placeholder="Search cards..."
+          placeholderTextColor="#888"
+          value={searchText}
+          onChangeText={text => setSearchText(text)}
+        />
+
+        <FlatList
+          data={filteredCards}
+          keyExtractor={item => item.id.toString()}
+          renderItem={renderCards}
+          contentContainerStyle={{ paddingBottom: 20 }}
+          keyboardShouldPersistTaps="handled"
+        />
+      </View>
+    </KeyboardAvoidingView>
   );
 }
 
@@ -73,6 +109,14 @@ const styles = StyleSheet.create({
   cardImage: {
     width: 200,
     height: 300,
+  },
+  searchInput: {
+    height: 40,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    marginBottom: 10,
   },
 });
 
