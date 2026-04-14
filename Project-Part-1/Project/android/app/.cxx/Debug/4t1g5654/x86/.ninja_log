@@ -1,9 +1,9 @@
 # ninja log v5
-2	61	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
 28	8368	7966951649901815	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/ComponentDescriptors.cpp.o	b090a942a2650a26
+8	46	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
 32	5051	7966951612849860	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/190a2f91593407d4cf64daf1c6983126/components/safeareacontext/States.cpp.o	c58887160a7a0bc0
-23	6228	7966951621127615	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/EventEmitters.cpp.o	53d5200e5e25d76f
 15	7402	7966951637200498	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/bdc9a4a36a23b4bec9382f65bd04a1bf/safeareacontext/RNCSafeAreaViewState.cpp.o	fd6976b60c1c8a9b
+23	6228	7966951621127615	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/EventEmitters.cpp.o	53d5200e5e25d76f
 38	6233	7966951628023600	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/6a3ced1a88c811eabd9a0df33b89ea94/jni/safeareacontext-generated.cpp.o	c18fd0cdfc68cc5
 62	19783	7967932595234614	CMakeFiles/appmodules.dir/OnLoad.cpp.o	2276447c3eff8f5e
 23955	43325	7967932830374269	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSSplitViewScreenShadowNode.cpp.o	14f6315301ff63e4
@@ -11,41 +11,31 @@
 19	7665	7966951642183205	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/190a2f91593407d4cf64daf1c6983126/components/safeareacontext/Props.cpp.o	17671c81f4dfc21
 11	8371	7966951650090063	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/80969a5e65a361c94a14d249fc39de00/RNCSafeAreaViewShadowNode.cpp.o	d05dea1d8cbb594a
 8371	8615	7966951652564953	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/x86/libreact_codegen_safeareacontext.so	fbcd3e41f89624ac
-32276	57700	7967932973388564	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/73edd7747115e8d3ecb1ad164d07111c/renderer/components/rnscreens/EventEmitters.cpp.o	3c9087634189aab4
 17854	65040	7967933046684505	CMakeFiles/appmodules.dir/31283e24ef8f9d80a94c594b907fe24b/Project-Part-1/Project/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	f277744fb226822d
+32276	57700	7967932973388564	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/73edd7747115e8d3ecb1ad164d07111c/renderer/components/rnscreens/EventEmitters.cpp.o	3c9087634189aab4
 65045	65319	7967933051156646	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/x86/libappmodules.so	ff94f966932ddf70
-33295	56441	7967932960920083	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/2a0ab01745a76582d1ee38f8dfb60800/jni/react/renderer/components/rnscreens/Props.cpp.o	8e169592b5aa1b64
+71	1432	7979117123409322	build.ninja	5ccf25d4faf3a072
 23794	42754	7967932824536671	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSTabsBottomAccessoryShadowNode.cpp.o	8f4993dd2a7dba53
-71	1432	7967963781015783	build.ninja	5ccf25d4faf3a072
+33295	56441	7967932960920083	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/2a0ab01745a76582d1ee38f8dfb60800/jni/react/renderer/components/rnscreens/Props.cpp.o	8e169592b5aa1b64
 43	17853	7967932575817576	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenStackHeaderConfigState.cpp.o	9651762b108200e2
 33	22596	7967932623232263	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSSafeAreaViewState.cpp.o	1a7536afc0a58ede
 19	22810	7967932625645595	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSFullWindowOverlayShadowNode.cpp.o	38c39a21b3e6130c
-57704	58083	7967932978601588	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/x86/libreact_codegen_rnscreens.so	1b65bdec6d0b82f5
 24	23779	7967932634853248	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSModalScreenShadowNode.cpp.o	8d7b645e020d0602
-24950	37426	7967932771293151	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenStackHeaderSubviewState.cpp.o	1619e0e70d73ba6b
+57704	58083	7967932978601588	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/x86/libreact_codegen_rnscreens.so	1b65bdec6d0b82f5
 57	23954	7967932636866399	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenStackHeaderSubviewShadowNode.cpp.o	cbfb729adca10016
-22811	33294	7967932730469045	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/7a454768852dd03522d12f16932022e0/renderer/components/rnscreens/RNSTabsHostState.cpp.o	e67c8cda78b7179f
+24950	37426	7967932771293151	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenStackHeaderSubviewState.cpp.o	1619e0e70d73ba6b
 48	24046	7967932637959763	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenStackHeaderConfigShadowNode.cpp.o	6811ecbf42cbd3c9
+22811	33294	7967932730469045	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/7a454768852dd03522d12f16932022e0/renderer/components/rnscreens/RNSTabsHostState.cpp.o	e67c8cda78b7179f
 53	24938	7967932646117887	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSScreenShadowNode.cpp.o	7e6398cabea1e53a
 29	29811	7967932695018632	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSSafeAreaViewShadowNode.cpp.o	5344cad9efeaeb85
-24047	42449	7967932821610174	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSTabsHostShadowNode.cpp.o	3a29b1042a0b7efb
 38	32267	7967932719888262	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenShadowNodeCommitHook.cpp.o	efe89cc933975144
+24047	42449	7967932821610174	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSTabsHostShadowNode.cpp.o	3a29b1042a0b7efb
 22597	33777	7967932735090439	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/7a454768852dd03522d12f16932022e0/renderer/components/rnscreens/RNSScreenState.cpp.o	508e31f94b898319
 33792	36607	7967932762978489	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/2a0ab01745a76582d1ee38f8dfb60800/jni/react/renderer/components/rnscreens/States.cpp.o	72085df0b480cc19
 19783	41385	7967932810676152	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/rnscreens.cpp.o	dd016776f0647559
 36609	46563	7967932862995850	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a5f950043f821e5f7dfc385a52fbe1a9/react/renderer/components/rnscreens/ShadowNodes.cpp.o	a9bdfb1d2ff9dad1
 29818	53419	7967932930871182	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/0a60c109d55e78166a17a22a3c15b38c/components/rnscreens/ComponentDescriptors.cpp.o	cf357f02b6db817d
-2	22	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	44	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-4	52	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	59	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	25	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	23	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-3	38	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	27	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	38	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-3	26	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	35	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-2	35	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-5	62	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
-8	46	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
+3	45	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/x86/CMakeFiles/cmake.verify_globs	556d93b6f66788ef
+33	3787	7979117166990048	CMakeFiles/appmodules.dir/OnLoad.cpp.o	2276447c3eff8f5e
+25	14108	7979117269505649	CMakeFiles/appmodules.dir/31283e24ef8f9d80a94c594b907fe24b/Project-Part-1/Project/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	f277744fb226822d
+14109	14394	7979117272891387	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/x86/libappmodules.so	ff94f966932ddf70

@@ -61,3 +61,7 @@ Thumbs.db
 # =========================
 *.swp
 *.swo
+
+android/app/build/
+android/.cxx/
+android/build/

@@ -7,6 +7,7 @@ import {
   TextInput,
   KeyboardAvoidingView,
   Platform,
+  TouchableOpacity,
 } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
@@ -45,12 +46,21 @@ function ViewCards() {
   const renderCards = ({ item }: { item: Card }) => (
     <View style={styles.cardContainer}>
       <Text style={styles.cardName}>{item.card_name}</Text>
+
       {item.card_image_url && (
-        <Image
-          source={{ uri: item.card_image_url }}
-          style={styles.cardImage}
-          resizeMode="contain"
-        />
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('CardImage', {
+              imageUrl: item.card_image_url,
+            });
+          }}
+        >
+          <Image
+            source={{ uri: item.card_image_url }}
+            style={styles.cardImage}
+            resizeMode="contain"
+          />
+        </TouchableOpacity>
       )}
     </View>
   );

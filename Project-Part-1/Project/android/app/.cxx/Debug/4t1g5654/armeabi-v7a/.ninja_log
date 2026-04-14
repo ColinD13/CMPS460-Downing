@@ -1,32 +1,32 @@
 # ninja log v5
 86	13321	7967931953894572	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSScreenShadowNodeCommitHook.cpp.o	521d66604def5ad
-2	45	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-41	5235	7966951486400656	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/States.cpp.o	387608888f29b6cd
+2	28	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
 10974	20167	7967932022982173	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/rnscreens.cpp.o	2019782ecf25ab15
 45	7202	7966951506044208	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/3323e75dc2bd539f4baf436f0971cf1e/safeareacontext-generated.cpp.o	4ff4dc8b30f2fc7e
 10	7936	7966951514224712	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/80969a5e65a361c94a14d249fc39de00/RNCSafeAreaViewState.cpp.o	a2791551bcef3ac4
+41	5235	7966951486400656	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/States.cpp.o	387608888f29b6cd
+33	8176	7966951514621803	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/ShadowNodes.cpp.o	5e4f653169aca258
+10601	18746	7967932005954203	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSSplitViewScreenShadowNode.cpp.o	654c2639faf21edb
 45703	46000	7967932281258372	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/armeabi-v7a/libappmodules.so	ca6f8186d4cefb01
 29	6252	7966951496414197	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/e6d52600ec6f4a2e5c91e0e769eda7e6/EventEmitters.cpp.o	99c8157c194222a7
-10601	18746	7967932005954203	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSSplitViewScreenShadowNode.cpp.o	654c2639faf21edb
-33	8176	7966951514621803	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/ShadowNodes.cpp.o	5e4f653169aca258
-11457	22057	7967932041371570	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/73edd7747115e8d3ecb1ad164d07111c/renderer/components/rnscreens/Props.cpp.o	4810ae150808253d
 16088	21591	7967932037111720	CMakeFiles/appmodules.dir/OnLoad.cpp.o	91bddfc4b2b7df1a
+11457	22057	7967932041371570	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/73edd7747115e8d3ecb1ad164d07111c/renderer/components/rnscreens/Props.cpp.o	4810ae150808253d
 24	8432	7966951517920406	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/34f7dc4a8e12d19a66a741ca86a934c9/safeareacontext/Props.cpp.o	f744a7df9ef2cc41
-61	10993	7967931929412576	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderSubviewShadowNode.cpp.o	a7bed8473a656511
 14	8883	7966951523722144	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/80969a5e65a361c94a14d249fc39de00/RNCSafeAreaViewShadowNode.cpp.o	a9be1efc7e3358cc
+61	10993	7967931929412576	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderSubviewShadowNode.cpp.o	a7bed8473a656511
 20	8909	7966951524183871	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/e6d52600ec6f4a2e5c91e0e769eda7e6/ComponentDescriptors.cpp.o	12dd56790a2605fa
-16077	29226	7967932112975575	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/0a60c109d55e78166a17a22a3c15b38c/components/rnscreens/EventEmitters.cpp.o	b7786aeb79656e17
 8909	9088	7966951526075177	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/armeabi-v7a/libreact_codegen_safeareacontext.so	7ef1ce2a09fd38d2
-78	9552	7967931904586392	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderConfigState.cpp.o	ae44866d8402d339
+16077	29226	7967932112975575	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/0a60c109d55e78166a17a22a3c15b38c/components/rnscreens/EventEmitters.cpp.o	b7786aeb79656e17
 16686	45702	7967932276686381	CMakeFiles/appmodules.dir/88a4caac34abaca80ed3b26d000d1bde/Project/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	64f1ecbccdd882c6
-158	11619	7967963768380893	build.ninja	ab9098da9bf87fe8
+78	9552	7967931904586392	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderConfigState.cpp.o	ae44866d8402d339
+158	11619	7979116929261430	build.ninja	ab9098da9bf87fe8
 44	9571	7967931904360590	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderSubviewState.cpp.o	9bac10b8638cd0da
 36	10601	7967931925190178	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSSafeAreaViewState.cpp.o	b540df2b7999d604
 16	10870	7967931927773805	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSFullWindowOverlayShadowNode.cpp.o	d0a789d79b0b0210
 22	10956	7967931929267000	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSModalScreenShadowNode.cpp.o	b22d4ab5ea382cfe
 53	11410	7967931931792171	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSScreenShadowNode.cpp.o	1e3e0328b47feed1
-10993	22213	7967932042779567	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/72c3801baac4bb750ad77c168f2010ce/rnscreens/ComponentDescriptors.cpp.o	45e534bd957727b1
 68	11456	7967931932073619	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSScreenStackHeaderConfigShadowNode.cpp.o	349a26751590c5c6
+10993	22213	7967932042779567	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/72c3801baac4bb750ad77c168f2010ce/rnscreens/ComponentDescriptors.cpp.o	45e534bd957727b1
 29	12633	7967931943146520	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/a560847f487686ee00d0c096210f4505/rnscreens/RNSSafeAreaViewShadowNode.cpp.o	23fa626a0d8d39e6
 9573	16076	7967931979478488	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSTabsHostState.cpp.o	4ed4a685ed3779a3
 9554	16088	7967931981993212	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/49ccf2ae354fca0c40e3516fe6aa4333/components/rnscreens/RNSScreenState.cpp.o	50d475882f8f2ba
@@ -35,17 +35,7 @@
 11417	19171	7967932012177256	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/6b500b1baeef99f4041d52b34bc07795/RNSTabsBottomAccessoryShadowNode.cpp.o	84fd67fe1f07dd6
 13323	20220	7967932023499329	rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/0a60c109d55e78166a17a22a3c15b38c/components/rnscreens/ShadowNodes.cpp.o	d1cda3db62af826e
 29227	29684	7967932117593746	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/armeabi-v7a/libreact_codegen_rnscreens.so	9790910ad15a3d66
-1	21	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-4	63	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-3	44	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	27	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	27	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	25	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-3	38	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-1	26	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	30	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-4	31	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-3	39	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	25	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-5	64	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
-2	28	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
+2	98	0	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/.cxx/Debug/4t1g5654/armeabi-v7a/CMakeFiles/cmake.verify_globs	98a2cc3f73400b99
+75	4068	7979116978094639	CMakeFiles/appmodules.dir/OnLoad.cpp.o	91bddfc4b2b7df1a
+57	16404	7979117099949088	CMakeFiles/appmodules.dir/88a4caac34abaca80ed3b26d000d1bde/Project/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	64f1ecbccdd882c6
+16405	16714	7979117104351753	C:/Mobile Apps Repo/CMPS460-Downing/Project-Part-1/Project/android/app/build/intermediates/cxx/Debug/4t1g5654/obj/armeabi-v7a/libappmodules.so	ca6f8186d4cefb01
