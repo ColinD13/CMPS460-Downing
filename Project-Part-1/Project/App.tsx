@@ -8,6 +8,7 @@ import MainPage from './MainPage';
 import ViewCards from './ViewCards';
 import RandomCommanders from './RandomCommanders';
 import ViewCommanders from './ViewCommanders'; 
+import ViewSeen from './ViewSeen';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ function App() {
         <Stack.Screen name="ViewCards" component={ViewCards} />
         <Stack.Screen name="RandomCommanders" component={RandomCommanders} />
         <Stack.Screen name="ViewCommanders" component={ViewCommanders} />
+        <Stack.Screen name="ViewSeen" component={ViewSeen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

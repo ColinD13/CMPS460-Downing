@@ -27,6 +27,20 @@ function MainPage() {
           Accept: 'application/json',
         },
       });
+
+      //call to my api to send a card to the seen cards table
+      const senCardResponse = await fetch('http://10.0.2.2:3000/api/seenCard', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: card?.id,
+          seen_card_name: card?.name,
+          seen_card_image_url: card?.image_uris?.normal,
+        }),
+      });
+
       const json = await response.json();
       console.log(json);
       setCard(json);
@@ -38,6 +52,7 @@ function MainPage() {
   const handleAddCard = async () => {
     try {
       console.log('Handle Add Card');
+      //call to the scryfall API
       const response = await fetch('http://10.0.2.2:3000/api/cards', {
         method: 'POST',
         headers: {
@@ -108,6 +123,11 @@ function MainPage() {
       <Button
         title="Get Random Commander"
         onPress={() => navigation.navigate('RandomCommanders')}
+      />
+
+      <Button
+        title="View All Seen Cards"
+        onPress={() => navigation.navigate('ViewSeen')}
       />
     </View>
   );
