@@ -28,6 +28,10 @@ function MainPage() {
         },
       });
 
+      const json = await response.json();
+      console.log(json);
+      setCard(json);
+
       //call to my api to send a card to the seen cards table
       const senCardResponse = await fetch('http://10.0.2.2:3000/api/seenCard', {
         method: 'POST',
@@ -35,15 +39,11 @@ function MainPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          id: card?.id,
-          seen_card_name: card?.name,
-          seen_card_image_url: card?.image_uris?.normal,
+          id: json?.id,
+          seen_card_name: json?.name,
+          seen_card_image_url: json?.image_uris?.normal,
         }),
       });
-
-      const json = await response.json();
-      console.log(json);
-      setCard(json);
     } catch (error) {
       console.error(error);
     }
@@ -98,23 +98,25 @@ function MainPage() {
   //return HTML
   return (
     <View style={styles.container}>
-      <Text style={styles.cardName}>{card.name}</Text>
-      {card.image_uris?.normal && (
-        <Image
-          source={{ uri: card.image_uris.normal }}
-          style={styles.cardImage}
-          resizeMode="contain"
-        />
-      )}
+      <View style={styles.cardContainer}>
+        <Text style={styles.cardName}>{card.name}</Text>
+        {card.image_uris?.normal && (
+          <Image
+            source={{ uri: card.image_uris.normal }}
+            style={styles.cardImage}
+            resizeMode="contain"
+          />
+        )}
+      </View>
+      <View style={styles.buttonGroup}>
+        <TouchableOpacity style={styles.button} onPress={handleAddCard}>
+          <Text style={styles.buttonText}>Interested</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={handleAddCard}>
-        <Text style={styles.buttonText}>Interested</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.button} onPress={notInterested}>
-        <Text style={styles.buttonText}>Not Interested</Text>
-      </TouchableOpacity>
-
+        <TouchableOpacity style={styles.button} onPress={notInterested}>
+          <Text style={styles.buttonText}>Not Interested</Text>
+        </TouchableOpacity>
+      </View>
       <Button
         title="View Interested"
         onPress={() => navigation.navigate('ViewCards')}
@@ -135,22 +137,6 @@ function MainPage() {
 
 //styles
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 20,
-    alignItems: 'center', // center horizontally
-    justifyContent: 'center', // center vertically
-  },
-  cardName: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-    textAlign: 'center',
-  },
-  cardImage: {
-    width: 250,
-    height: 350,
-  },
   button: {
     backgroundColor: '#007bff',
     padding: 12,
@@ -158,9 +144,65 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginVertical: 5,
   },
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f7fb',
+    padding: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  cardContainer: {
+    backgroundColor: '#ffffff',
+    borderRadius: 16,
+    padding: 20,
+    alignItems: 'center',
+    width: '100%',
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 10,
+    elevation: 5,
+    marginBottom: 20,
+  },
+
+  cardName: {
+    fontSize: 22,
+    fontWeight: '700',
+    marginBottom: 15,
+    textAlign: 'center',
+    color: '#333',
+  },
+
+  cardImage: {
+    width: 260,
+    height: 360,
+    borderRadius: 12,
+  },
+
+  buttonGroup: {
+    width: '100%',
+    gap: 10,
+    marginBottom: 15,
+  },
+
+  primaryButton: {
+    backgroundColor: '#4CAF50',
+    padding: 14,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+
+  secondaryButton: {
+    backgroundColor: '#e74c3c',
+    padding: 14,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+
   buttonText: {
     color: '#fff',
-    fontWeight: 'bold',
+    fontWeight: '600',
+    fontSize: 16,
   },
 });
 
