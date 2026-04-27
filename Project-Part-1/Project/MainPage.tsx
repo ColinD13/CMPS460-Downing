@@ -116,21 +116,19 @@ function MainPage() {
         <TouchableOpacity style={styles.button} onPress={notInterested}>
           <Text style={styles.buttonText}>Not Interested</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('ViewCards')}>
+          <Text style={styles.buttonText}>View Interested</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('RandomCommanders')}>
+          <Text style={styles.buttonText}>Get Random Commander</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('ViewSeen')}>
+          <Text style={styles.buttonText}>View All Seen Cards</Text>
+        </TouchableOpacity>        
       </View>
-      <Button
-        title="View Interested"
-        onPress={() => navigation.navigate('ViewCards')}
-      />
-
-      <Button
-        title="Get Random Commander"
-        onPress={() => navigation.navigate('RandomCommanders')}
-      />
-
-      <Button
-        title="View All Seen Cards"
-        onPress={() => navigation.navigate('ViewSeen')}
-      />
     </View>
   );
 }
